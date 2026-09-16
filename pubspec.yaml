@@ -1,0 +1,47 @@
+name: apple_shop_ir
+description: "An UnOfficial Online Market for Apple Products."
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: ^3.13.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  dio:
+  dartz:
+  get_it:
+  flutter_bloc:
+  equatable:
+  shared_preferences:
+  cached_network_image:
+  intl:
+  iconsax:
+  slide_to_act:
+  smooth_page_indicator:
+  hexcolor:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - lib/core/assets/images/vectors/
+
+  fonts:
+    - family: SM
+      fonts:
+        - asset: lib/core/assets/fonts/shabnam/ShabnamMedium.ttf
+          weight: 500
+    - family: SB
+      fonts:
+        - asset: lib/core/assets/fonts/shabnam/ShabnamBold.ttf
+          weight: 700
